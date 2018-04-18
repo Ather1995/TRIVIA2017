@@ -1,0 +1,87 @@
+#shuffle_div{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0px;
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    /*padding-top: 10%;*/
+}
+#dicing_div{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0px;
+    z-index: 220;
+    width: 100%;
+    height: 100em;
+    padding-top: 10%;
+}
+
+
+.curScore{
+    font-size: 20px;
+}
+
+.score{
+    margin-top: 5px;
+}
+
+#gameOver{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0px;
+    z-index: 220;
+    width: 100%;
+    height: 100em;
+    padding-top: 10%;
+    font-size: 30px;
+    color: white;
+}
+.gameOverContainer{
+    height: 500px;
+    width: 50%;
+    margin: auto;
+    background-color: #ce532e;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.line{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-flex: 1;
+    margin: 10px 5px;
+}
+
+.a1{
+    -webkit-box-flex: 1;
+}
+.gameOverHead{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.gamOverButton{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+.gameOverButton{
+    margin: 30px 15%;
+    height: 1.5em;
+    line-height: 1.5em;
+    width: 30%;
+    -webkit-box-flex: 1;
+    text-align: center;
+    background-color: #00aaff;
+    border-radius: 8px;
+}
+
+.blank{
+    -webkit-box-flex: 1;
+}
+.gameOverRanking{
+    height: 50%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}

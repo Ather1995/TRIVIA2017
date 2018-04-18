@@ -1,0 +1,52 @@
+body{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+#info_area{
+    -webkit-box-flex: 1;
+}
+
+#info_area{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.gameInfo_area{
+    -webkit-box-flex: 1;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+.playerList{
+    padding-bottom: 80px;
+}
+.gameStatusDisplayBox{
+    -webkit-box-flex: 1;
+}
+.timer{
+    float: right;
+    margin: 40px;
+    z-index: 999;
+}
+
+/*游戏状态显示框*/
+.gameStatusDisplayBox{
+    margin: 20px 50px;
+    background-color: white;
+    color: black;
+    border: #ddd 1px solid;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.displayBoxHead{
+    height: 50px;
+    line-height: 50px;
+    background: #186383;
+    color: white;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+.displayBoxBody{
+    padding: 5px;
+    height: 230px;
+    overflow: scroll;
+}

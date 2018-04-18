@@ -1,0 +1,15 @@
+.demo{width:760px; height:120px; margin:200px auto;}
+.wrap{width:90px; height:90px; margin:120px auto 30px auto; position:relative}
+.dice{width:90px; height:90px; background:url(../../img/dicing/dice.png) no-repeat; cursor:pointer;}
+.dice_1{background-position:-5px -4px}
+.dice_2{background-position:-5px -107px}
+.dice_3{background-position:-5px -212px}
+.dice_4{background-position:-5px -317px}
+.dice_5{background-position:-5px -427px}
+.dice_6{background-position:-5px -535px}
+.dice_t{background-position:-5px -651px}
+.dice_s{background-position:-5px -763px}
+.dice_e{background-position:-5px -876px}
+p#result{text-align:center; font-size:16px}
+p#result span{font-weight:bold; color:#f30; margin:6px}
+#dice_mask{width:90px; height:90px; background:#fff; opacity:0; position:absolute; top:0; left:0; z-index:999}

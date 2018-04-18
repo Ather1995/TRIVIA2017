@@ -1,0 +1,115 @@
+.login_container{
+    margin: 380px auto 0 auto;
+}
+.register{
+    margin-top: 10px;
+}
+.register a{
+    text-decoration-color: white;
+    color: white;
+}
+
+.register_container{
+    margin: 220px auto 0 auto;
+}
+.errorText{
+    position: absolute;
+    right: -200px;
+    display: none;
+    /*margin-top: 8px;*/
+    /*display: none;*/
+}
+.errorText_username{
+    top:20px;
+}
+.errorText_password{
+    top: 75px;
+}
+.errorText_repassword{
+    top: 130px;
+}
+.error{
+    position: absolute;
+    left: 310px;
+    display:none;
+    /*position: absolute;*/
+    /*right: -55px;*/
+    width: 40px;
+    height: 40px;
+    background: #2d2d2d; /* browsers that don't support rgba */
+    background: rgba(45,45,45,.25);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.error0{
+    top: 27px;
+    right: -55px;
+    width: 40px;
+    height: 40px;
+}
+.error1{
+     top: 96px;
+    right: -55px;
+    width: 40px;
+    height: 40px;
+}
+.error2{
+    top: 165px;
+    right: -55px;
+    width: 40px;
+    height: 40px;
+}
+.errorback0{
+    top: 10px;
+}
+.errorback1{
+    top: 65px;
+ }
+.errorback2{
+    top: 120px;
+}
+#username{top: 27px;}
+#password{top: 96px;}
+#password2{top: 165px;}
+.input_area{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-align: center;
+}
+
+.line{
+    display: block;
+    -webkit-box-flex: 1;
+    margin: 25px auto 0;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+
+.login_error .text{
+    height: 40px;
+    line-height: 40px;
+-webkit-box-flex: 1;
+}
+.login_error{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+
+.blank{
+    -webkit-box-flex: 1;
+}
+
+.text{
+    visibility: hidden;
+}
+input{
+    margin-top: 10px;
+
+}
+
+.error_login{
+    left: 10px;
+    display: block;
+}

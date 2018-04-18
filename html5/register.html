@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="../css/loginRegister/reset.css">
+    <link rel="stylesheet" href="../css/supersized.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/loginRegister/login.css">
+    <script src = "../js/websocket/offline.js"></script>
+    <script src = "../js/websocket/reconnecting-websocket.js"></script>
+</head>
+<body>
+<div class="page-container register_container">
+    <h1>Register</h1>
+    <form action="" method="post">
+        <i class="fa fa-camera-retro fa-lg"></i>
+        <input id="username" type="text" name="username" class="username" placeholder="Username">
+        <div class="errorText errorText_username" style="display: none;"><span class="username">用户名已存在</span></div>
+        <input id="password" type="password" name="newPassword" class="password" placeholder="New Password">
+        <div class="errorText errorText_password" style="display: none;"><span class="password">密码长度应6-10位</span></div>
+        <input id="password2" type="password" name="rePassword" class="rePassword" placeholder="Repeat New Password">
+        <div class="errorText errorText_repassword" style="display: none;"><span class="password2">两次密码不一致</span></div>
+        <button type="button" id="Register_button">注册</button>
+        <div class="error errorback0">
+            <span class="error0">+️</span>
+        </div>
+        <div class="error errorback1">
+            <span class="error1">+️</span>
+        </div>
+        <div class="error errorback2">
+            <span class="error2">+️</span>
+        </div>
+    </form>
+
+
+    <div class="connect">
+        <p>吴一凡 华丽萍 陈弈君 赵宁</p>
+    </div>
+</div>
+<!-- Javascript -->
+<script src="../js/jquery-1.8.2.min.js"></script>
+<script src="../js/loginRegister/supersized.3.2.7.min.js"></script>
+<script src="../js/supersized-register.js"></script>
+<script src="../js/loginRegister/scripts.js"></script>
+</body>
+</html>
