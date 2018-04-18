@@ -2,7 +2,7 @@
 一个答题闯关的游戏系统
 其用户场景可以描述为：几个参赛的玩家通过轮流掷色子来决定每个人在游戏盘上的位置，即玩家位置，然后根据位置上的问题作答。如果问题回答正确就会获得1枚金币，否则就被关进禁闭室。被关禁闭的玩家，在下次掷色子，若掷出的点数是奇数，则可以走出禁闭室，继续在游戏棋盘上前进到新的位置，并有机会通过回答问题来赢取金币；若掷出的点数是偶数，则仍需待在禁闭室里，不能前进和回答问题。一旦产生了第一个获得6枚金币的玩家，游戏结束。
 ## 功能演示
-![overall](https://github.com/sumAlbert/AutoTurnBook/blob/master/src/display/trivia.gif?raw=true)
+![overall](https://github.com/Ather1995/TRIVIA2017/blob/master/display/trivia.gif?raw=true)
 
 ## 技术要点
 ### 利用phaserjs游戏引擎框架
